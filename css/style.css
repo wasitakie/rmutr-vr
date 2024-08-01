@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sarabun", sans-serif;
+}
+
+.banner{
+    background-color: #ed1c24;
+    padding: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.banner .logo{
+    font-size: 2rem;
+    color: white;
+}
+
+.banner .menu{
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.menu ul{
+    list-style: none; 
+}
+
+.menu ul li{
+    display: inline-block;
+    color: white;
+    margin-right: 1.5rem;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white ;
+    
+}
+
+.banner.btn{
+    background-color: white;
+    color: blue;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.banner.btn a{
+    text-decoration: none;
+    color: blue;
+}
