@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RMUTR-VR</title>
+    <title><?php include "../footer-title/title.php" ?></title>
     <link rel="stylesheet" href="../b5/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
 
@@ -18,7 +19,7 @@
 
 
 
-    <?php include "../footer/footer.php"; ?>
+    <?php include "../footer-title/footer.php"; ?>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
     <script src="../b5/js/bootstrap.min.js"></script>
 </body>

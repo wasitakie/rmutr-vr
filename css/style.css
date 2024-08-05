@@ -57,3 +57,84 @@
     text-decoration: none;
     color: blue;
 }
+
+.imgSize {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.btnClose {
+    display: block;
+}
+.btn-list{
+    display: none;
+}
+
+.menuSub{
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .banner img{
+        width: 200px;
+    }
+    .menu{
+        display: none;
+    }
+  
+    
+
+    .btnClose {
+        display: none;
+    }
+    .btn-list{
+        display: block;
+       font-size: 50px;
+        font-weight: bold;
+        height: auto;
+        color: white;
+        cursor: pointer;
+    }
+
+    .menuSub {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 5rem;
+        background-color: #1a1111;
+        position: absolute;
+        z-index: 0;
+        text-align: end;
+        top: 110px;
+        margin-left: -1.6rem;
+    }
+
+    .menuSub ul{
+        list-style: none;
+    }
+    .menuSub ul li {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .menuSub ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .btnSub{
+        display: block;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        position:absolute;
+        right: 0;
+        text-align: end;
+        
+    }
+
+
+    
+}
