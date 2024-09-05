@@ -7,11 +7,11 @@
             <div class="menu">
                 <ul>
                     <li><a href="./index.php">หน้าหลัก</a></li>
-                    <!-- <li><a href="./student">รายชื่อผู้สมัคร</a></li> -->
+                    <li><a href="./studentAll.php">รายชื่อผู้สมัคร</a></li>
                     <!-- <li><a href="./allCal.php">ส่งผลสะสมแคลอรี่</a></li>
                     <li><a href="./report.php">รายงานผล</a></li>
                     <li><a href="./sumMary.php">สรุปผล</a></li> -->
-
+                    <li><a href="../pages/signOut.php">ออกจากระบบ</a></li>
 
                 </ul>
 
@@ -20,23 +20,17 @@
             <div class="menuSub" id="menuSub">
                 <ul>
                     <li><a href="./index.php">หน้าหลัก</a></li>
-                    <!-- <li><a href="./student.php">รายชื่อผู้สมัคร</a></li> -->
+                    <li><a href="./studentAll.php">รายชื่อผู้สมัคร</a></li>
                     <!-- <li><a href="./allCal.php">ส่งผลสะสมแคลอรี่</a></li>
                     <li><a href="./report.php">รายงานผล</a></li>
                     <li><a href="./sumMary.php">สรุปผล</a></li> -->
-                    <li class="btnSub"><button type="button" data-modal-target="authentication-modal"
-                            data-modal-toggle="authentication-modal"
-                            class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 btn-login">ลงชื่อเข้าใช้
-                            / ลงทะเบียน</button></li>
+                    <li><a href="../pages/signOut.php">ออกจากระบบ</a></li>
+
 
                 </ul>
 
             </div>
-            <div class="btn btnClose">
-                <button type="button" data-modal-target="authentication-modal" data-modal-toggle="authentication-modal"
-                    class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 btn-login">ลงชื่อเข้าใช้
-                    / ลงทะเบียน</button>
-            </div>
+
             <div class="btn-list"><i class="bi bi-list"></i></div>
 
         </div>
